@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-# python 3.3.2+ Hammer Dos Script v.1
+# python 3.3.2+ Blackroad Dos Script v.1
 # by Lferda
 # only for legal purpose
 
@@ -66,36 +66,29 @@ def dos2():
         w.task_done()
 
 def usage():
-    print(''' \033[92m  Hammer Dos Script v.1 by Lferda
-    It is the end user's responsibility to obey all applicable laws.
-    It is just for server testing script. Your IP is visible. \n
-    \033[0m''')
-    print('''\033[92m
-    ▄▄▄▄    ██▓    ▄▄▄          █████▒▒█████  
-    ▓█████▄ ▓██▒   ▒████▄      ▓██   ▒▒██▒  ██▒
-    ▒██▒ ▄██▒██░   ▒██  ▀█▄    ▒████ ░▒██░  ██▒
-    ▒██░█▀  ▒██░   ░██▄▄▄▄██   ░▓█▒  ░▒██   ██░
-    ░▓█  ▀█▓░██████▒▓█   ▓██▒  ░▒█░   ░ ████▓▒░
-    ░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░   ▒ ░   ░ ▒░▒░▒░ 
-    ▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░   ░       ░ ▒ ▒░ 
-     ░    ░   ░ ░    ░   ▒      ░     ░ ░ ░ ▒  
-     ░          ░  ░     ░  ░             ░ ░  
-          ░                                     
-    \033[0m''')
-    print("Telegram: https://t.me/lfrdx")
-    print("Instagram: ig:@lferdaonlyon3")
-    print("WhatsApp: https://wa.me/+33748648391")
-    sys.exit()
+    print("\033[92m")
+    print("===================================================")
+    print("                 Blackroad Dos Script              ")
+    print("===================================================")
+    print(" Author  : Lferda")
+    print(" GitHub  : https://github.com/lferda")
+    print(" Telegram: https://t.me/lfrdx")
+    print(" Instagram: ig:@lferdaonlyon3")
+    print(" WhatsApp : https://wa.me/+33748648391")
+    print("===================================================")
+    print("\033[0m")
 
 def get_parameters():
     global host
     global port
     global thr
 
+    print("\033[94m")
     print("Select options:")
     host = input("Enter server IP (-s): ")
     port = input("Enter port (-p) [default 80]: ") or 80
     thr = input("Enter turbo (-t) [default 135]: ") or 135
+    print("\033[0m")
 
 # Reading headers
 global data
